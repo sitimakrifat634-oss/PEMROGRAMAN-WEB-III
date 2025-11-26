@@ -3,7 +3,7 @@ $server ="localhost";
 $username ="root";
 $password ="";
 $database ="dbnonreg";
-//perintah koneksi
+//perintah koneksii
 $sambung=mysqli_connect("$server","$username","$password","$database");
 //jika server tidak aktif
 if(mysqli_connect_errno()){
